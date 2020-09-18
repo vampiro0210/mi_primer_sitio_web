@@ -1,0 +1,104 @@
+body{
+   margin: 0;
+   font-family: sans-serif;
+  }
+.contenedor {
+   max-width: 1280px;
+   width: 90%;
+   margin: auto;
+}
+header #navegador ul{
+   list-style-type: none;
+   text-align: right;
+}
+header #navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+header #navegador li a {
+   padding: 2px 7px 2px 7px;
+   background-color: #A9B9F2;
+   color:#040006;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+header #navegador li a:hover{
+   background-color: #5055df;
+   color: #ffffff;
+}
+header {
+   background: url(../IMG/mujeres.jpeg);
+   height: 45vh;
+   background-size:cover;
+  }
+.derechos{
+   display: flex;
+   justify-content: space-around;
+}
+.derechos .texto{
+  width: 42%;
+  }
+h1{
+	text-align: center;
+}
+#mas{
+	text-align: center;
+}
+.contenedor-derechos {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+color: #fff;
+}
+.conte {
+width: 24%;
+padding: 34px 30px 38px 30px;
+border-radius: 10px;
+margin-bottom: 40px;
+position: relative;
+}
+.conte h4 {
+font-size: 30px;
+margin: 0;
+}
+.conte ul {
+margin-bottom: 20px;
+height: 194px;
+}
+.contenedor-derechos .violeta{
+background: linear-gradient(to top, #5055df, #6d68f3);
+box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);
+}
+.contenedor-derechos .violetaclaro{
+background: linear-gradient(to top, #7283BC, #A9B9F2);
+box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
+}
+.ondas {
+position:absolute;
+left: 0;
+bottom: 0;
+}
+footer{
+  background: #2F2F2F;
+  padding: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+footer .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer img{
+  margin: 0 40px;
+  transform: rotate(0);
+  transition:0.4s;
+}
+footer img:hover{
+  transform: rotate(360deg);
+}
+footer p{
+  color: #fff;
+  margin-top: 40px;
+}
